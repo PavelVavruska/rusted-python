@@ -3,9 +3,9 @@
 ## 17400000x faster! (Click-bait results)
 
 Run the test on your machine:
-
-   pytest slow.py 
-
+```
+pytest slow.py 
+```
 Results:
 
 <img alt="Description" src="https://github.com/PavelVavruska/rusted-python/blob/master/results_20220611.png">
@@ -23,10 +23,6 @@ python3 -m pip install -r requirements.txt  # install libs from requirements.txt
 
 
 ## If you're using bash (on a Mac or GNU/Linux distro), add this to your ~/.bashrc
-
-    export PYTHONPATH="${PYTHONPATH}:/my/other/path"
-
-Ubuntu: 
 
     export PYTHONPATH="${PYTHONPATH}:/home/rust/.local/bin"
 
