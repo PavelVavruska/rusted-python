@@ -1,5 +1,16 @@
 # Rusted Python - slowly turn Python project into Rust
 
+## Click-bait results
+
+Run the test on your machine:
+
+   pytest slow.py 
+
+Results:
+
+<img alt="Description" src="https://github.com/PavelVavruska/rusted-python/blob/master/results_20220611.png">
+
+
 ## Install virtualenv for Python:
 
 ```
@@ -21,6 +32,8 @@ Ubuntu:
 
 
 ## How to update rust project part and use it in Python:
+
+Step 1 and 2 is automated by SH script ./build_and_copy_bin.sh
 
 1) build rust project in ./pyext-rustlib
 ```

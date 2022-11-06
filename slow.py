@@ -1,7 +1,12 @@
 from rustlib import multiply_rust  # rust version
 
 def multiply(a: int, b: int):
-    return a * b
+    c = a * b
+    for _ in range(0,1000):
+        for _ in range(0,1000):
+            for _ in range(0,100):
+                c+=1
+    return c
 
 def run_pure_python():
     multiply(1,5)
