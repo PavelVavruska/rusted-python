@@ -1,6 +1,6 @@
 # Rusted Python - slowly turn Python project into Rust
 
-## Click-bait results
+## 17400000x faster! (Click-bait results)
 
 Run the test on your machine:
 
